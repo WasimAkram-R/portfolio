@@ -1,0 +1,56 @@
+.aboutnav ul {
+  background-color: #262626;
+  display: inline-block;
+}
+.hovered:hover {
+  color: #ff004f;
+  transition: 0.5s;
+}
+.hovered {
+  color: #e0e0e0;
+}
+
+.active {
+  color: #ff004f;
+}
+
+.maincol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 993px) {
+  .aboutimg {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .aboutimg {
+    height: 600px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .aboutimg {
+    width: 300px;
+    height: 400px;
+    margin-inline: 20%;
+  }
+}
+
+@media (max-width: 575px) {
+  .aboutimg {
+    width: 250px;
+    margin-inline: 20%;
+  }
+}
+
+.aboutimg:hover {
+  overflow: hidden;
+  filter: drop-shadow(0px 1px 10px #ff004f);
+  transition: 0.4s;
+}

@@ -1,0 +1,37 @@
+@media (max-width: 992px) {
+  .a {
+    position: relative;
+  }
+  .a::after {
+    width: 0;
+    content: "";
+    height: 3px;
+    background-color: #080808;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  .a:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 991px) {
+  .a {
+    position: relative;
+  }
+  .a::after {
+    width: 0;
+    content: "";
+    height: 3px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  .a:hover::after {
+    width: 100%;
+  }
+}
