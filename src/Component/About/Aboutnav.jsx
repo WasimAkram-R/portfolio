@@ -5,8 +5,8 @@ import "./Nav.css";
 const Aboutnav = () => {
   return (
     <>
-      <nav className="aboutnav mb-2 text-sm-start text-center">
-        <ul className="py-2 px-4 rounded-4 my-2">
+      <nav className="aboutnav mb-2">
+        <ul className="py-1 px-2 rounded-4 my-2">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -46,3 +46,15 @@ const Aboutnav = () => {
 };
 
 export default Aboutnav;
+
+
+
+
+
+
+
+
+
+
+
+

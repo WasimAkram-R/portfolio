@@ -11,16 +11,17 @@ import Aboutnav from "./Aboutnav";
 const About = () => {
   return (
     <>
+      <div className="container">
       <div className="row " id="aboutpage">
-        <div className="col-lg-4 col-md-5 pb-md-0 pb-5">
+        <div className="col-lg-4  pb-md-0 pb-5">
           <div>
             <img src={aboutimg} className="img-fluid aboutimg" alt="" />
           </div>
         </div>
 
-        <div className="col-lg-8 col-md-7 maincol">
+        <div className="col-lg-8  maincol">
           <div className="text-white">
-            <h2>About Me</h2>
+            <h2 >About Me</h2>
             <p style={{ fontSize: "15px", color: "#B0B0B0" }}>
               {" "}
               Hello! I'm Wasim Akram R, a passionate and dedicated MERN stack
@@ -34,9 +35,9 @@ const About = () => {
           </div>
 
           <div>
-            <h4 className="py-2" style={{ color: "#ff004f" }}>
+            {/* <h4 className="py-2" style={{ color: "#ff004f" }}>
               SUMMARY
-            </h4>
+            </h4> */}
 
             <BrowserRouter>
               <Aboutnav/> 
@@ -48,6 +49,7 @@ const About = () => {
             </BrowserRouter>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

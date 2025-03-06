@@ -7,14 +7,14 @@ const Certificates = () => {
         <div className="text-white col-md-6  pb-lg-0 pb-2">
           <h6 style={{ color: "#DC143C" }}>MERN STACK DEVELOPER</h6>
           <p style={{ color: "#B0B0B0", fontSize: "14px" }}>
-            ISSUED BY ACE TRAINING-FEB 2025
+            ISSUED BY ACE SOFTWARE TRAINING-FEB 2025
           </p>
         </div>
 
         <div className="text-white col-md-6  pb-lg-0 pb-2">
           <h6 style={{ color: "#DC143C" }}>FRONTEND DEVELOPER</h6>
           <p style={{ color: "#B0B0B0", fontSize: "14px" }}>
-            ISSUED BY EDEX TECH -OCT 2024
+            ISSUED BY EDEX TECH SOLUTIONS-OCT 2024
           </p>
         </div>
 

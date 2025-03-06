@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Navbar.css";
-
+import React from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 function OffcanvasExample() {
@@ -23,7 +23,7 @@ function OffcanvasExample() {
               className="text-white fw-medium fs-3"
               style={{ fontFamily: "cursive" }}
             >
-              <span style={{ color: "#ff004f", fontSize: "40px" }}>P</span>
+              <span style={{ color: "#ff004f", fontSize: "45px" }}>P</span>
               ortfolio
             </Navbar.Brand>
 
@@ -39,7 +39,7 @@ function OffcanvasExample() {
             </Navbar.Toggle>
 
             <Navbar.Offcanvas
-              className="text-white"
+              className="text-white navs"
               style={{ backgroundColor: "#ff004f", width: "250px" }}
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}

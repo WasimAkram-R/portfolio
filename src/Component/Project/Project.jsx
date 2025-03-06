@@ -1,14 +1,14 @@
 import React from "react";
-import x_clone from "./x-clone.png";
-import chat_app from "./chat-app.png";
+import x_clone from "./x-clone.jpg";
+import chat_app from "./chat-app.jpg";
 import shopease from "./shopease.jpg";
 import "./Project.css";
 const Project = () => {
   return (
     <>
-      <div className="container py-5" id="projectspage">
+      <div className="container py-5">
         <h1 className="text-white pb-5">My Work</h1>
-        <div className="ro work-list">
+        <div className="ro work-list"id="projectspage">
           <div className="work">
             <img src={x_clone} alt="" className="" />
 
@@ -63,6 +63,8 @@ const Project = () => {
         </div>
       </div>
     </>
+
+
   );
 };
 

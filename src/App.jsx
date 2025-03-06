@@ -4,7 +4,7 @@ import Contact from "./Component/Contact/Contact";
 import Home from "./Component/Home/Home";
 import Navbar from "./Component/Navbar/Navbar";
 import Project from "./Component/Project/Project";
-
+import React from "react";
 function App() {
   return (
     <>
