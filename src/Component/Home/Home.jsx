@@ -2,7 +2,7 @@ import React from "react";
 import heroimg from "./Hero.png";
 import "./Hero.css";
 import TextChange from "./TextChange";
-import Resume from "./Resume1.pdf";
+import Resume from "./WasimAkram_MernStack_Developer_Resume.pdf";
 import toast from "react-hot-toast";
 
 const Home = () => {

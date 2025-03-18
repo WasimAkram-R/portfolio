@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 
-import Resume from "./Resume1.pdf";
+import Resume from "./WasimAkram_MernStack_Developer_Resume.pdf";
 
 const Contact = () => {
   const form = useRef();
